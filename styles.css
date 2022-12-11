@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap:700,400');
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --ff: 'Roboto', sans-serif;
+  --fw-n: 400;
+  --fw-m: 700;
+
+  --primary-clr:#FFFFFF;
+  --secondary-clr: #8794BA;
+
+}
+/* Landing Page */
+.landingpage{
+    position: relative;
+    width: 1600px;
+    height: 4173px;
+    background: #F8F9FF;
+}
