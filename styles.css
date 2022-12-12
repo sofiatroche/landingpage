@@ -2,21 +2,497 @@
 
 * {
   box-sizing: border-box;
-}
-
-:root {
-  --ff: 'Roboto', sans-serif;
-  --fw-n: 400;
-  --fw-m: 700;
-
-  --primary-clr:#FFFFFF;
-  --secondary-clr: #8794BA;
 
 }
-/* Landing Page */
-.landingpage{
+.background-top{
+    /* background-top */
+
+position: absolute;
+height: 815px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+}
+
+.rectangle7{
+/* Rectangle 7 */
+position: absolute;
+height: 271px;
+left: 0px;
+right: 0px;
+top: 544px;
+
+/* red */
+
+
+}
+.rectangle5{
+/* Rectangle 5 */
+
+position: absolute;
+height: 798px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+/* dark blue */
+
+
+}
+
+.mask-group{
+/* Mask Group */
+
+position: absolute;
+width: 1600px;
+height: 798px;
+left: 1600px;
+top: 798px;
+
+transform: rotate(-180deg);
+
+}
+
+
+.rectangle8{
+/* Rectangle 8 */
+
+position: absolute;
+height: 798px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+/* dark blue */
+background: #172755;
+
+}
+
+.subtract-fondo{
+/* Subtract */
+
+position: absolute;
+width: 1438px;
+height: 1438px;
+left: calc(50% - 1438px/2 + 439px);
+top: -38px;
+
+/* text / secondary */
+background: #8794BA;
+opacity: 0.07;
+}
+
+
+.subtract-fondo2{
+/* Subtract */
+
+position: absolute;
+width: 660px;
+height: 660px;
+left: calc(50% - 660px/2 - 570px);
+top: -261px;
+
+/* text / secondary */
+background: #8794BA;
+opacity: 0.07;
+}
+.graficos{
     position: relative;
-    width: 1600px;
-    height: 4173px;
-    background: #F8F9FF;
+    
+    left: 1000px;
+    top: 300px;
+      
 }
+.imagen{
+    width: 1000px;
+    height: 800px;
+}
+
+/*mainmenu*/
+.main-menu{
+    position: absolute;
+    width: 1181px;
+    height: 40px;
+    left: 210px;
+    top: 50px;
+}
+.menu{
+    /* menu */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 36px;
+
+position: absolute;
+width: 352px;
+height: 19px;
+left: calc(50% - 352px/2 - 148px);
+top: 60px;
+}
+
+
+.sign-in{
+    position: absolute;
+    width: 48px;
+    height: 19px;
+    left: calc(50% - 48px/2 + 366px);
+    top: 61px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: right;
+
+    /* text / secondary */
+    color: #8794BA;
+
+}
+.products{
+/* Products */
+
+width: 65px;
+height: 19px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+/* text / secondary */
+color: #8794BA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.pricing{
+/* Pricing */
+
+width: 50px;
+height: 19px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+/* text / secondary */
+color: #8794BA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.faq{
+/* FAQ */
+
+width: 29px;
+height: 19px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+/* text / secondary */
+color: #8794BA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+
+.blog{
+    /* Blog */
+
+width: 32px;
+height: 19px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+/* text / secondary */
+color: #8794BA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+}
+
+.contact{
+/* Blog */
+
+width: 32px;
+height: 19px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+/* text / secondary */
+color: #8794BA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+}
+
+.button{
+/* button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 53px;
+gap: 10px;
+
+position: absolute;
+width: 161px;
+height: 40px;
+left: calc(50% - 161px/2 + 510.5px);
+top: 50px;
+
+border: 1px solid #465B95;
+border-radius: 68px;
+
+}
+
+.sing-up{
+/* Sign Up */
+
+width: 55px;
+height: 19px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+/* text / secondary */
+color: #8794BA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.logo{
+    /* logo */
+
+position: absolute;
+width: 184.02px;
+height: 40px;
+left: calc(50% - 184.02px/2 - 497.99px);
+top: 50px;
+
+
+
+}
+
+.subtract{
+/* Subtract */
+
+position: absolute;
+left: 0%;
+right: 78.26%;
+top: 0%;
+bottom: 0%;
+
+/* red */
+background: #EF2A82;
+}
+
+.analytics{
+/* ANALYTICS */
+
+position: absolute;
+left: 28.6%;
+right: 7.58%;
+top: 30.03%;
+bottom: 29.46%;
+
+background: #FFFFFF;
+
+}
+.text-block{
+/* text block */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 49px;
+
+position: absolute;
+width: 550px;
+height: 315px;
+left: calc(50% - 550px/2 - 315px);
+top: 242px;
+
+}
+
+.text{
+/* text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 15px;
+
+width: 550px;
+height: 216px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.titulo{
+
+/* Monitor your business on real-time dashboard */
+
+width: 550px;
+height: 120px;
+
+/* text / H1 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 120%;
+/* or 60px */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+.texto{
+/*  */
+
+width: 550px;
+height: 81px;
+
+/* text / body */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+/* or 27px */
+
+/* text / secondary */
+color: #8794BA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.boton{
+/* button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 80px;
+gap: 10px;
+
+width: 238px;
+height: 50px;
+
+background: #EF2A82;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 68px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+
+.texto-boton{
+/* Try for free */
+
+width: 78px;
+height: 19px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
