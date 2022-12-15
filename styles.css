@@ -194,3 +194,47 @@ footer .social ul {
 footer .social ul li img {
   cursor: pointer;
 }
+
+.footer{
+  background: #172755;}
+.splitter{
+  position: absolute;
+  width: 1180px;
+  height: 1px;
+  left: calc(50% - 1180px/2);
+  top: 3976px;
+  background: #2A407C;
+}
+.menu_list{
+height: 16px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #8794BA;
+
+}
+.menu{
+  position: realtive;
+  margin: auto;
+  }
+  
+.menu_product{
+  margin: auto;
+  float: left;
+  padding: 16px;
+}
+
+.footer_items{
+  display: flex;
+  flex-direction: row;
+  align-items: center ;
+}
+.social_buttons{
+  margin: auto;
+  padding: 60px;
+}
+.social_buttons_padding{
+  padding: 16px;
+}
