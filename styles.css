@@ -550,6 +550,18 @@ body {
 .name {
   color: #fff;
 }
+
+.princing__card {
+  background: url("images/background-bottom.svg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  max-width: 1500px;
+  margin: auto;
+
+  padding-top: 230px;
+  padding-bottom: 110px;
+}
+
 footer {
   margin-top: 4rem;
   display: -webkit-box;
