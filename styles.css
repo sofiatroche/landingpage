@@ -70,6 +70,7 @@
 }
 
 body {
+  
   box-sizing: border-box;
   font-family: "Roboto";
   background-color: #EEEEF7;
@@ -121,7 +122,7 @@ body {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 60px;
   line-height: 120%;
   color: #FFFFFF;
 
@@ -148,6 +149,23 @@ body {
   height: 500;
   background-size: cover;
   padding-top: 200px;
+}
+.h1 {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.h2 {
+  font-size: 40px;
+  line-height: 53px;
+  font-weight: 700;
+  color: #172755;
+}
+.body-text {
+  font-size: 18px;
+  line-height: 27px;
+  color: #8794ba;
 }
 
 footer {
@@ -238,3 +256,4 @@ color: #8794BA;
 .social_buttons_padding{
   padding: 16px;
 }
+
