@@ -458,6 +458,7 @@ footer .social ul li img {
 }
 
 .footer{
+  margin:auto;
   background: #172755;}
 .splitter{
   position: absolute;
@@ -478,7 +479,7 @@ color: #8794BA;
 
 }
 .menu{
-  position: realtive;
+  position: relative;
   margin: auto;
   }
 
